@@ -69,21 +69,45 @@ main .todolist .first-item {
 main .todolist .second-item {
     list-style: none;
     margin: 15px 0;
-    vertical-align: middle;
 }
 main .todolist .second-item .circle {
     display: inline-block;
     border: 1px solid;
     border-radius: 50%;
-    line-height: 18px;
-    width: 20px;
+    line-height: 14px;
+    width: 16px;
     margin-right: 10px;
-    margin-left: 5px;
     text-align: center;
+    font-size: 12px;
 }
 main .todolist .second-item .circle.tick {
     color: lightgreen;
 }
 main .todolist .second-item .circle.cross {
     color: red;
+}
+main .todolist .second-item .category {
+    font-size: 8px;
+    color: white;
+    padding: 6px;
+    border-radius: 9px;
+    font-weight: 700;
+}
+main .todolist .second-item .category.edit {
+    background-color: rgb(98, 169, 228);
+}
+main .todolist .second-item .category.goals {
+    background-color: rgb(150, 116, 221);
+}
+main .todolist .second-item .category.recruit {
+    background-color: rgb(123, 190, 170);
+}
+main .todolist .second-item .category.mobile {
+    background-color: rgb(230, 162, 75);
+}
+main .todolist .second-item .category.web {
+    background-color: rgb(201, 106, 159);
+}
+main .todolist .second-item .category.sales {
+    background-color: rgb(181, 200, 73);
 }
