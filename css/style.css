@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ++++++ header */
+header {
+    height: 70px;
+}
+header .logo {
+    padding: 10px 30px;
+}
+header .logo h1 {
+    display: inline-block;
+}
+header .logo h1, header .logo img {
+    vertical-align: middle;
+}
