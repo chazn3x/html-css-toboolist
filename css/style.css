@@ -14,6 +14,7 @@ header .logo {
 }
 header .logo h1 {
     display: inline-block;
+    font-weight: 900;
 }
 header .logo h1, header .logo img {
     vertical-align: middle;
@@ -51,4 +52,35 @@ main .buttons .btn-due {
     color: lightgray;
     border: 1px solid lightgray;
     background-color: white;
+}
+/* lista */
+main .container.list {
+    margin-top: 3px;
+    border-radius: 2px 2px 5px 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(54, 54, 54);
+}
+main .todolist .first-item {
+    list-style-image: url(../img/arrow-down.png);
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+main .todolist .second-item {
+    list-style: none;
+    margin: 10px 0;
+    vertical-align: middle;
+}
+main .todolist .second-item .circle {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 18px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+main .todolist .second-item .circle.tick {
+    color: lightgreen;
 }
