@@ -6,6 +6,7 @@
 }
 /* ++++++ header */
 header {
+    background-color: white;
     height: 70px;
 }
 header .logo {
@@ -16,4 +17,38 @@ header .logo h1 {
 }
 header .logo h1, header .logo img {
     vertical-align: middle;
+}
+/* ++++++ main */
+body {
+    background-color: rgb(246, 248, 249);
+}
+/* container */
+main .container {
+    width: 80%;
+    margin: auto;
+    padding: 0 40px;
+    background-color: white;
+}
+/* pulsanti */
+main .container.btns {
+    margin-top: 30px;
+    border-radius: 5px 5px 2px 2px;
+}
+main .buttons {
+    padding: 15px 3px 10px 0;
+}
+main .buttons .btn {
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+main .buttons .btn-uno {
+    color: white;
+    background-color: rgb(99, 171, 235);
+    border: none;
+}
+main .buttons .btn-due {
+    color: lightgray;
+    border: 1px solid lightgray;
+    background-color: white;
 }
