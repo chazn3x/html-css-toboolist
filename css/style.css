@@ -70,6 +70,9 @@ main .todolist .second-item {
     list-style: none;
     margin: 15px 0;
 }
+main .todolist span {
+    vertical-align: middle;
+}
 main .todolist .second-item .circle {
     display: inline-block;
     border: 1px solid;
