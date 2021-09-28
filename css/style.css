@@ -68,7 +68,7 @@ main .todolist .first-item {
 }
 main .todolist .second-item {
     list-style: none;
-    margin: 10px 0;
+    margin: 15px 0;
     vertical-align: middle;
 }
 main .todolist .second-item .circle {
@@ -83,4 +83,7 @@ main .todolist .second-item .circle {
 }
 main .todolist .second-item .circle.tick {
     color: lightgreen;
+}
+main .todolist .second-item .circle.cross {
+    color: red;
 }
